@@ -11,6 +11,28 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@cypress/react": "^5.12.4",
+    "@cypress/webpack-dev-server": "^1.8.4",
+    "@mate-academy/cypress-tools": "^1.0.4",
+    "@mate-academy/eslint-config-react-typescript": "^1.0.11",
+    "@mate-academy/scripts": "^1.2.8",
+    "@mate-academy/students-ts-config": "*",
+    "@mate-academy/stylelint-config": "*",
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "cypress": "^9.5.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "gh-pages": "^3.2.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "node-sass": "^7.0.1",
+    "stylelint": "^13.13.1",
+    "typescript": "^4.6.3"
+  },
   "scripts": {
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
@@ -40,5 +62,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "mateAcademy": {
+    "_comment": "Replace 'reactTypescript' with 'react' if you want use React without Typescript",
+    "projectType": "react",
+    "tests": {
+      "_comment": "Add `cypressComponents: true` to enable component tests"
+    }
   }
 }
